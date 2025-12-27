@@ -1,6 +1,4 @@
-import type { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
+module.exports = {
   reactStrictMode: true,
   typescript: {
     strict: true,
@@ -13,5 +11,3 @@ const nextConfig: NextConfig = {
     NEXT_PUBLIC_APP_NAME: 'LUMINA v2.0',
   },
 };
-
-export default nextConfig;
